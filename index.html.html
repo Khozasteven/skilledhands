@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skilled Hands Studio - Wood Art & Renovation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo">Skilled Hands Studio</a>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#hero"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="#testimonials"><i class="fa-solid fa-comments"></i> Testimonials</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-info-circle"></i> About</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                    <li class="social"><a href="your_facebook_link" target="_blank" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+                    <li class="social"><a href="your_twitter_link" target="_blank" aria-label="Twitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social"><a href="your_instagram_link" target="_blank" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+            <button id="menu-toggle" aria-label="Toggle Menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-background-slider">
+             <div class="hero-background-image" style="background-image: url('img/kingman.png'); --slide-index: 0;"></div>
+            <div class="hero-background-image" style="background-image: url('img/IMG_4339.JPG'); --slide-index: 1;"></div>
+            <div class="hero-background-image" style="background-image: url('img/IMG_4326.JPG'); --slide-index: 2;"></div>
+        </div>
+        <div class="hero-content container" data-aos="fade-up">
+            <h1>Welcome to Skilled Hands Studio</h1>
+            <p>Exquisite Wood Art & Professional House Renovation Services.</p>
+            <a href="#portfolio" class="button">View Our Work</a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Portfolio & Services</h2>
+            <div class="portfolio-grid">
+
+                <div class="portfolio-item wood-art-section" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Wood Art</h3>
+                    <p>Explore our unique collection of handcrafted wood art pieces. Click an item for more details.</p>
+                    <div class="woodart-grid">
+                        <div class="woodart-item">
+                            <a href="img/IMG_4326.jpg" class="woodart-link" data-title="Handcarved Bowl" data-description="Beautifully crafted bowl made from indigenous Yellowwood. Perfect as a centerpiece." data-price="R450">
+                                <img src="img/kingman.png" alt="Handcarved wooden bowl">
+                                <div class="item-info">
+                                    <span class="item-title-preview">Handcarved Bowl</span>
+                                    <span class="price">R450</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="woodart-item">
+                            <a href="img/IMG_4335.JPG" class="woodart-link" data-title="Abstract Sculpture" data-description="Unique abstract piece carved from Oak, suitable for mantels or shelves." data-price="R675">
+                                <img src="img/IMG_4342.JPG" alt="Abstract wood sculpture">
+                                <div class="item-info">
+                                    <span class="item-title-preview">Abstract Sculpture</span>
+                                    <span class="price">R675</span>
+                                </div>
+                            </a>
+                        </div>
+                         <div class="woodart-item">
+                            <a href="img/IMG_4345.JPG" class="woodart-link" data-title="Wooden Coasters (Set of 4)" data-description="Set of four elegant wooden coasters with a smooth finish. Protects surfaces in style." data-price="R250">
+                                <img src="img/IMG_E4351.JPG" alt="Set of wooden coasters">
+                                <div class="item-info">
+                                    <span class="item-title-preview">Wooden Coasters Set</span>
+                                    <span class="price">R250</span>
+                                </div>
+                            </a>
+                        </div>
+                         </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                    <h3>House Renovation</h3>
+                    <img src="img/renovation-placeholder.jpg" alt="House Renovation Example" class="portfolio-main-image">
+                    <p>Transform your space with our expert renovation services. We handle kitchens, bathrooms, extensions, and more, focusing on quality craftsmanship and client satisfaction.</p>
+                    <a href="#contact" class="button button-secondary">Request a Consultation</a>
+                </div>
+
+                 <div class="portfolio-item coming-soon" data-aos="fade-up" data-aos-delay="300">
+                     <h3>Steel Artwork</h3>
+                     <div class="coming-soon-content">
+                         <i class="fas fa-cogs fa-3x"></i>
+                         <p>Creative Steel Art Coming Soon!</p>
+                         <span>Targeting Late 2025</span>
+                         <p><small>Unique metal sculptures and decor.</small></p>
+                     </div>
+                 </div>
+
+                 <div class="portfolio-item coming-soon" data-aos="fade-up" data-aos-delay="400">
+                     <h3>Upholstery</h3>
+                      <div class="coming-soon-content">
+                         <i class="fas fa-couch fa-3x"></i>
+                         <p>Professional Upholstery Services</p>
+                         <span>Targeting Late 2025</span>
+                          <p><small>Giving furniture a new life.</small></p>
+                     </div>
+                 </div>
+
+            </div>
+        </div>
+    </section>
+
+     <section id="testimonials" class="section-padding bg-light">
+        <div class="container">
+            <h2 data-aos="fade-up">What Our Clients Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                    <blockquote>
+                        "The attention to detail in the wood carving is incredible. A true piece of art that we cherish in our home."
+                    </blockquote>
+                    <cite>– Sarah L., Cape Town</cite>
+                </div>
+                 <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                    <blockquote>
+                        "Our kitchen renovation was handled professionally from start to finish. Skilled Hands Studio exceeded our expectations!"
+                    </blockquote>
+                    <cite>– Mark & Jane D., Durbanville</cite>
+                </div>
+                 <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                    <blockquote>
+                        "Absolutely love the custom wooden frame they made. It's perfect!"
+                    </blockquote>
+                    <cite>– David R., Stellenbosch</cite>
+                </div>
+                </div>
+        </div>
+    </section>
+
+     <section id="about" class="section-padding">
+        <div class="container" data-aos="fade-up">
+            <h2>About Skilled Hands Studio</h2>
+            <p>
+                [Replace this with information about yourself/your team, your passion for craftsmanship, experience in wood art and renovation, your values, materials you use, your process, etc. Make it personal and professional.]
+            </p>
+            <p>
+                Based in [Your Location, e.g., Cape Town], we are dedicated to providing high-quality, bespoke creations and reliable renovation services... [Continue your story].
+            </p>
+             </div>
+    </section>
+
+     <section id="contact" class="section-padding bg-dark">
+        <div class="container">
+            <h2 data-aos="fade-up">Get In Touch</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Ready to start a project or inquire about our art? Contact us!</p>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Contact Details</h3>
+                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                    <p><i class="fas fa-phone"></i> Phone: <a href="tel:+27000000000">Your Phone Number</a></p>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="your_whatsapp_link" target="_blank">Chat with us</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Location: [Your Area/Suburb], Cape Town (Consultations by appointment)</p>
+                    <div class="contact-social">
+                         <a href="your_facebook_link" target="_blank" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook fa-lg"></i></a>
+                         <a href="your_twitter_link" target="_blank" aria-label="Twitter" title="Twitter"><i class="fab fa-twitter fa-lg"></i></a>
+                         <a href="your_instagram_link" target="_blank" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
+                     </div>
+                </div>
+                 <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+                     <h3>Send Us a Message</h3>
+                     <form action="YOUR_FORM_ENDPOINT" method="POST">
+                         <div class="form-group">
+                             <label for="name">Name:</label>
+                             <input type="text" id="name" name="name" required>
+                         </div>
+                         <div class="form-group">
+                             <label for="email">Email:</label>
+                             <input type="email" id="email" name="email" required>
+                         </div>
+                          <div class="form-group">
+                             <label for="subject">Subject:</label>
+                             <input type="text" id="subject" name="subject">
+                         </div>
+                         <div class="form-group">
+                             <label for="message">Message:</label>
+                             <textarea id="message" name="message" rows="5" required></textarea>
+                         </div>
+                         <button type="submit" class="button">Send Message</button>
+                     </form>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+     <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Skilled Hands Studio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+     <div class="fab-container">
+        <a href="your_whatsapp_link" target="_blank" class="fab whatsapp-icon" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        </div>
+
+    <div id="lightbox-modal" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption">
+            <h3 id="lightbox-title"></h3>
+            <p id="lightbox-description"></p>
+            <span id="lightbox-price"></span>
+            <a href="#contact" class="button button-secondary lightbox-inquire">Inquire About This Piece</a>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="wood.js"></script>
+</body>
+</html>
